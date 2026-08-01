@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (Crucial for security)
+.env
+
+# TypeScript cache
+tsconfig.tsbuildinfo
