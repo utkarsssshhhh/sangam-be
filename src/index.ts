@@ -113,8 +113,8 @@ app.post('/api/v1/admin/seed', async (req: Request, res: Response): Promise<any>
 
     const admin = await prisma.admin.create({
       data: {
-        email: 'admin@pravayan.com',
-        password: 'pravayan@admin2026'
+        email: 'admin@sangam.com',
+        password: 'sangam@admin2026'
       }
     });
 

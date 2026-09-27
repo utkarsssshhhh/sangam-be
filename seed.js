@@ -6,8 +6,8 @@ async function main() {
   if (!existing) {
     const admin = await prisma.admin.create({
       data: {
-        email: 'admin@pravayan.com',
-        password: 'pravayan@admin2026'
+        email: 'admin@sangam.com',
+        password: 'sangam@admin2026'
       }
     });
     console.log('Created admin:', admin.email);
