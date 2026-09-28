@@ -9,3 +9,9 @@ dist/
 
 # TypeScript cache
 tsconfig.tsbuildinfo
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
